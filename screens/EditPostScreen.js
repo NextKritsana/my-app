@@ -16,7 +16,7 @@ export default function EditPostScreen({ route, navigation }) {
   const { postId } = route.params;  // Receive postId from params
   const [post, setPost] = useState(null);
   const [media, setMedia] = useState([]);
-  const [title, setTitle] = useState('');//
+  const [title, setTitle] = useState('');
   const [price, setPrice] = useState('');
   const [description, setDescription] = useState('');
   const [category, setCategory] = useState('');
